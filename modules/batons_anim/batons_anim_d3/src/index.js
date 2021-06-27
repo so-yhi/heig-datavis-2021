@@ -62,3 +62,5 @@ const onChange = key => {
 select('select').on('change', e => onChange(e.target.value))
 
 window.onload = () => onChange('population')
+
+// :)
